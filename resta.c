@@ -1,7 +1,8 @@
-#include <stdio.h>/*Inicializo libreria*/
+#include <stdio.h>
 
-float resta(int a, int b){
-  float c;/*Declaro la variable donde voy a guardar el resultado*/
-  c = a - b;/*resalizo la operacion*/
-  return c;/*Regreso el resultado al main*/
+float resta(int a, int b)
+{
+  int c;
+  c = a - b;
+  return c;
 }
