@@ -1,7 +1,7 @@
-#include <stdio.h>
+#include <stdio.h>/*Se inicializan librerias*/
 
-float divicion(int a, int b){
+float division(int a, int b){
     float c;
-    c = a / b;
-    return c;
+    c = (float)a / b; /*Realizo laoperacion con el cast*/
+    return c;/*Se regresa el resultado*/
 }
