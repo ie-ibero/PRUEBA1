@@ -24,5 +24,5 @@ float calculaPi(void)
       divisor = divisor + 2;
     }
   pi = pi*4;
-  return float;
+  return pi;
 }
