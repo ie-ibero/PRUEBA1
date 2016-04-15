@@ -3,10 +3,6 @@ float coseno(float z){
   int n;
   float sum, termino;
 
-  //Pido datos:
-  printf("\nIngrese el ángulo en radianes: ");
-  scanf("%f", &z);
-
   //Desarrollo el algoritmo:
   for(n=1, sum=0, termino=1 ; n<30; n++){
     sum = sum + termino;
