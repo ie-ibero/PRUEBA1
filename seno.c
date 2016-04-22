@@ -9,6 +9,9 @@
  *@date  15/04/2016
  */
 
+#include <stdio.h>
+#include <math.h>
+#define PI 3.1416
 
 /**
  *@brief     Esta funcion ejecuta el proceso de la serie de Taylor para el 
@@ -50,7 +53,7 @@ float sen_tay(float num, int n)
  */
 float radianes(float num){
   float res;
-  res = (num*3.1416)/180;
+  res = (num*PI)/180;
   return(res);
 }
 
