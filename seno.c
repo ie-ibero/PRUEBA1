@@ -9,12 +9,6 @@
  *@date  15/04/2016
  */
 
-#include <stdio.h>
-#include <math.h>
-
-float sen_tay(float num, int n);
-float radianes(float num);
-float factorial(int n);
 
 /**
  *@brief     Esta funcion ejecuta el proceso de la serie de Taylor para el 
